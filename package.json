@@ -1,0 +1,10 @@
+{
+  "name": "cronometro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Kenji Sakai",
+  "license": "ISC"
+}

@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(45deg, cyan, rgb(39, 95, 198));
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 15px;
+  padding: 80px 100px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 3em;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  margin: 10px 10px 0 0;
+  width: 100px;
+  height: 50px;
+}
+
+.start {
+  background-color: rgb(0, 187, 125);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.pause {
+  background-color: rgb(149, 211, 190);
+  color: aliceblue;
+  cursor: auto;
+}
+
+.restart {
+  background-color: rgb(149, 211, 190);
+  color: aliceblue;
+  cursor: auto;
+}
+
+button:hover {
+  background-color: rgb(149, 211, 190);
+}
